@@ -12,9 +12,5 @@ exports.ln = function (n) {
 };
 
 exports.factorial = function (n) {
-    return n < 1 ? Math.factorial(n - 1) * n : 1;
-};
-
-exports.factorial = function (n) {
     return 1 / Math.sqrt(5) * Math.pow((1 + Math.sqrt(5)) / 2, n + 1);
 };
