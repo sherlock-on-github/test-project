@@ -12,5 +12,5 @@ exports.ln = function (n) {
 };
 
 exports.factorial = function (n) {
-    return 1 / Math.sqrt(5) * Math.pow((1 + Math.sqrt(5)) / 2, n + 1);
+    return Math.round(1 / Math.sqrt(5) * Math.pow((1 + Math.sqrt(5)) / 2, n + 1));
 };
