@@ -7,9 +7,14 @@ exports.max = function (a, b) {
 };
 
 exports.ln = function (n) {
-    return Math.log(n);
+    var A = 42000; // bigger is better
+    return A * Math.pow(n, 1 / A) - A;
 };
 
 exports.factorial = function (n) {
     return n < 1 ? Math.factorial(n - 1) * n : 1;
+};
+
+exports.factorial = function (n) {
+    return 1 / Math.sqrt(5) * Math.pow((1 + Math.sqrt(5)) / 2, n + 1);
 };
